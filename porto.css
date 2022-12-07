@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+
+.header {
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.header-logo h1{
+    background-color: brown;
+    color: wheat;
+    font-size: 30px;
+    font-family: "Garamond", serif;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 50px;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    background-color: bisque;
+    height: 720px;
+    margin-top: 50px;
+}
+
+.greet {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.click {
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+
+.main span{
+    color: brown;
+    cursor: pointer;
+}
+
+.main span:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.circle img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 50%;
+    border-bottom: 20px brown;
+    margin-top: 2px;
+    margin-left: 18px;
+}
+
+.circle img:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+.paragraph1 {
+    padding-top: 20px;
+}
+
+.paragraph1 span {
+    color: brown;
+}
+
+.rectangle{
+    color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.rectangle1 {
+    justify-content: center;
+    background-color: brown;
+    width: 140px;
+    height: 100px;
+    border-radius: 10%;
+    float: left;    
+    padding-left: 40;
+    cursor: pointer;
+}
+
+.rectangle2 {
+    justify-content: center;
+    background-color: brown;
+    width: 140px;
+    height: 100px;
+    border-radius: 10%;
+    float: left;    
+    padding-left: 40;
+    cursor: pointer;
+}
+
+.rectangle3 {
+    justify-content: center;
+    background-color: brown;
+    width: 140px;
+    height: 100px;
+    border-radius: 10%;
+    float: left;    
+    padding-left: 40;
+    cursor: pointer;
+}
+
+.rectangle4 {
+    justify-content: center;
+    background-color: brown;
+    width: 140px;
+    height: 100px;
+    border-radius: 10%;
+    float: left;    
+    padding-left: 40;
+    cursor: pointer;
+}
+
+.rectangle1 p{
+    font-size:22px;
+    padding-right: 40px;
+    padding-top: 19px;
+}
+
+.rectangle2 p{
+    font-size:22px;
+    padding-right: 40px;
+    padding-top: 19px;
+}
+
+.rectangle3 p{
+    font-size: 22px;
+    padding-right: 40px;
+    padding-top: 19px;
+}
+
+.rectangle4 p{
+    font-size:22px;
+    padding-right: 40px;
+    padding-top: 19px;
+}
+
+.rectangle1:hover{
+    background-color: gray;
+}
+
+.rectangle2:hover{
+    background-color: gray;
+}
+
+.rectangle3:hover{
+    background-color: gray;
+}
+
+.rectangle4:hover{
+    background-color: gray;
+}
+
+
